@@ -98,7 +98,7 @@ FROM OAG_GLOBAL_AIRLINE_SCHEDULES_SAMPLE.PUBLIC.OAG_SCHEDULE;
 
 ---
 
-### **3.3 Transfor (Transformácia dát)**
+### **3.3 Transform (Transformácia dát)**
 V tejto fáze boli dáta zo staging tabuliek vyčistené, transformované a obohatené. Hlavným cieľom bolo pripraviť dimenzie a faktovú tabuľku, ktoré umožnia jednoduchú a efektívnu analýzu.
 
 Dimenzia 'dim_aircraft' obsahuje informácie o lietadlách použitých pri letoch, ako je kód lietadla, jeho typ a konfigurácia interiéru. Slúži na analýzu letov podľa použitých typov lietadiel. Ide o dimenziu 'typu SCD 1', keďže historické zmeny nie sú sledované.
